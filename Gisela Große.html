@@ -2,15 +2,28 @@
 <html>
 <head>
     <style>
+                .audio-player {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+    text-align: center;
+}
+
+audio {
+    width: 500px;
+    max-width: 100%;
+}
         body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #f4f4f4;
-            font-family: Arial, sans-serif;
-        }
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
 
         .box {
             background-color: gray;
@@ -19,6 +32,7 @@
             border-radius: 12px;
             text-align: center;
             width: 800px;
+            margin: 40px auto;
             box-shadow: 0 6px 15px rgba(0,0,0,0.2);
         }
     </style>
@@ -31,6 +45,11 @@
     <p>Am 15. Juni waren wir dann endlich wieder zu Hause in Ohlau. Nun ging es zu unserer Wohnung. Dort waren schon die Russen drin und sie war leer bis auf ein paar Schüppen „Müll“. An der Wand war noch mein Häschen Bild und an der Wohnungstür das Namensschild. Mutti musste bezw. Durfte es selbst abmachen und ich nur das Bild holen. Das war’s. </p>
     <p>Nun mussten wir auf Wohnungssuche gehen. Tage später war ich mit Liselotte bei unserer Wohnung unter dem Fenster gucken. Dort haben wir in dem nassen Müll noch ein paar Bilder und Kleinigkeiten gefunden.</p>
     <p>Die Deutschen und auch die Polen, die vor uns da oder zurück waren, haben alles geplündert.</p>
+    <div class="audio-player">
+    <audio controls>
+        <source src="./Images/Gisela Große.mp3" type="audio/mpeg">
+        Dein Browser unterstützt kein Audio.
+    </audio>
 </div>
 </body>
 </html>
